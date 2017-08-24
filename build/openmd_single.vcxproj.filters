@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CharBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CharScanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\InputBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\mdParser\MDLexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\mdParser\MDParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\mdParser\MDTreeParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\ForceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\SimCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\SimInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\Thermo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\constraints\ZconstraintForceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\constraints\Rattle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\constraints\Shake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeConstraints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeObjectiveFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeForces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargePropagator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\LangevinHullForceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\rnemd\RNEMD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\Velocitizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ConstraintWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\DumpReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\DumpWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\RestReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\RestWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\StatWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ZConsWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ifstrstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\ParallelRandNumGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Electrostatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\parallel\ForceDecomposition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\parallel\ForceMatrixDecomposition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\restraints\RestraintForceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\restraints\ThermoIntegrationForceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\DistanceFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\ProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\simError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\OpenMDBitSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\Problem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\file\code\git\tool\OpenMD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BEE536CC-45E5-35C9-993A-DB58F7D4D926}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

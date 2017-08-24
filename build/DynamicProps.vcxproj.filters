@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\ActionCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\DipoleCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\DirectionalRCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\Displacement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\DynamicProps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\EnergyCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\FrameTimeCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\FreqFlucCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\HBondJump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\HBondPersistence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\LegendreCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\LegendreCorrFuncZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\cOHz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\MomentumCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\MomAngMomCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\ForTorCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\ForceAutoCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\TorForCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\TorqueAutoCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\MultipassCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\ParticleTimeCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\InteractionTimeCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\RCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\SelectionCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\StressCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\SystemDipoleCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\ThetaCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\TimeCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\VCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\BondCorrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\dynamicProps\DynamicPropsCmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\wingetopt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\file\code\git\tool\OpenMD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BEE536CC-45E5-35C9-993A-DB58F7D4D926}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

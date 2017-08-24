@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\AngleR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\BondAngleDistribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\BondOrderParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\BOPofR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\DensityPlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\GofAngle2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\GofR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\GofRAngle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\GofRAngle2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\GofRZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\GofXyz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\GofZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\CoordinationNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\Hxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\HBondGeometric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\Kirkwood.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\Field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\MultipoleSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\NanoLength.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\NanoVolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\NitrileFrequencyMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\ObjectCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\P2OrderParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\PotDiff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\pAngle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\RadialDistrFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\RhoR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\RhoZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\RhoYZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\RippleOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\RNEMDStats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\SCDOrderParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\SpatialStatistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\StaticAnalyser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\StaticProps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\SurfaceDiffusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\TetrahedralityHBMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\TetrahedralityParam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\TetrahedralityParamDens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\TetrahedralityParamZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\TetrahedralityParamXYZ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\TwoDGofR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\staticProps\StaticPropsCmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\wingetopt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\file\code\git\tool\OpenMD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BEE536CC-45E5-35C9-993A-DB58F7D4D926}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

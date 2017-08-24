@@ -1,2 +1,5 @@
-build
 openmd.spec
+/build/CMakeFiles
+/build/*.cmake
+/build/bin
+/build/*.txt

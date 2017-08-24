@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\build\Revision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ANTLRUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ASTFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ASTNULLType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ASTRefCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\BaseAST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\BitSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonAST.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonASTWithHiddenTokens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonHiddenStreamToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\LLkParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\MismatchedCharException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\MismatchedTokenException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\NoViableAltException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\NoViableAltForCharException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\RecognitionException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\Token.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenRefCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamBasicFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamHiddenTokenFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamRewriteEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamSelector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TreeParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\BlockSnapshotManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\DataStorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\ForceField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\MoleculeCreator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\PairList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\Register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\SimSnapshotManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\Snapshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\Stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\hydrodynamics\Ellipsoid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\hydrodynamics\HydroProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\hydrodynamics\Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\DLM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeLangevin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeNVE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeNVT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\Integrator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\IntegratorFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\LangevinDynamics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\LDForceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NgammaT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPAT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPrT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTsz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTxyz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NVE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NVT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\VelocityVerletIntegrator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\AtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\BaseAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\BendTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\BondTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ChargeAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\DirectionalAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\EAMAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\FluctuatingChargeAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ForceFieldOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\GayBerneAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\InversionTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\LennardJonesAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\MultipoleAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\NonBondedInteractionsSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\OptionSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ParamConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\PolarizableAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\SCAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\SectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\SectionParserManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ShapeAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\StickyAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\StickyPowerAtomTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\TorsionTypesSectionParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ZConsReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\CubicLattice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\FCCLattice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\Lattice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\LatticeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\shapedLattice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\ChebyshevT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\ChebyshevU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\CubicSpline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\LegendrePolynomial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\RealSphericalHarmonic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\RMSD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\SeqRandNumGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\SphericalHarmonic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\Wigner3jm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\mdParser\FilenameObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\OptimizationFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\Armijo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\BFGS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\ConjugateGradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\Constraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\EndCriteria.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\LineSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\LineSearchBasedMethod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\SteepestDescent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\PotentialEnergyObjectiveFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\MinimizerParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Buckingham.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\EAM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\GB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\InteractionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\LJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\MAW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Morse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\RepulsivePower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Mie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\SC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Sticky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\SwitchingFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Atom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Bend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\DirectionalAtom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\GhostBend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\GhostTorsion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Inversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Molecule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\RigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\StuntDouble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\ShortRangeInteraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Torsion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\UreyBradleyBend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\perturbations\UniformField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\perturbations\UniformGradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\restraints\MolecularRestraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\restraints\ObjectRestraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\HullFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\IndexFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\NameFinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionCompiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\TokenMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\AtomStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\AtomType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BendStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BendTypeParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BondStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BondTypeParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\CharmmTorsionType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ConstraintStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\CutoffGroupStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\DirectionalAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\EAMAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\FixedChargeAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\FluctuatingChargeAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\FragmentStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\GayBerneAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ImproperCosineInversionType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\InversionStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\InversionTypeParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\LennardJonesAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\MoleculeStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\MultipoleAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\NonBondedInteractionType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\PolarizableAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\RestraintStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\RigidBodyStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ShapeAtomType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\StickyAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\SuttonChenAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\TorsionStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\TorsionTypeParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ZconsStamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\ElementsTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\MoLocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\PropertyMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\StringTokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\StringUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\Trim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\wildcards.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\AtomNameVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\AtomVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\CompositeVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\LipidTransVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\OtherVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\ReplacementVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\RigidBodyVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\ZconsVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\rnemd\RNEMDParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\clusters\Icosahedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\clusters\Cuboctahedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\clusters\Decahedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\gzstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\file\code\git\tool\OpenMD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BEE536CC-45E5-35C9-993A-DB58F7D4D926}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

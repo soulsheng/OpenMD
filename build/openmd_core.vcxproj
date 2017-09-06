@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -56,28 +56,28 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\file\code\git\tool\OpenMD\build\lib\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openmd_core.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openmd_core</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\file\code\git\tool\OpenMD\build\lib\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openmd_core.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openmd_core</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\file\code\git\tool\OpenMD\build\lib\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">openmd_core.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">openmd_core</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\file\code\git\tool\OpenMD\build\lib\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openmd_core.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openmd_core</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\file\code\git\tool\OpenMD\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openmd_core.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openmd_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\file\code\git\tool\OpenMD\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openmd_core.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openmd_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\file\code\git\tool\OpenMD\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">openmd_core.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">openmd_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\file\code\git\tool\OpenMD\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openmd_core.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openmd_core</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -89,15 +89,15 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision 4df9d6644dfb2b2d920221ed6c772078c69de451)";HAVE_LIBZ;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)";HAVE_LIBZ;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision 4df9d6644dfb2b2d920221ed6c772078c69de451)\";HAVE_LIBZ;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)\";HAVE_LIBZ;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,7 +110,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -120,16 +120,17 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision 4df9d6644dfb2b2d920221ed6c772078c69de451)";HAVE_LIBZ;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)";HAVE_LIBZ;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision 4df9d6644dfb2b2d920221ed6c772078c69de451)\";HAVE_LIBZ;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)\";HAVE_LIBZ;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -142,7 +143,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -152,16 +153,17 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision 4df9d6644dfb2b2d920221ed6c772078c69de451)";HAVE_LIBZ;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)";HAVE_LIBZ;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision 4df9d6644dfb2b2d920221ed6c772078c69de451)\";HAVE_LIBZ;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)\";HAVE_LIBZ;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,7 +176,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -185,15 +187,15 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision 4df9d6644dfb2b2d920221ed6c772078c69de451)";HAVE_LIBZ;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)";HAVE_LIBZ;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision 4df9d6644dfb2b2d920221ed6c772078c69de451)\";HAVE_LIBZ;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)\";HAVE_LIBZ;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -216,7 +218,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/file/code/git/tool/OpenMD/CMakeLists.txt;D:\file\code\git\tool\OpenMD\CMakeLists.txt;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\cmake_mpi_test.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake;D:\file\code\git\tool\OpenMD\.git\HEAD;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake.in;D:\file\code\git\tool\OpenMD\build\CMakeFiles\git-data\grabRef.cmake;D:\file\code\git\tool\OpenMD\.git\refs\heads\master;D:\file\code\git\tool\OpenMD\cmake\modules\FindOpenBabel2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindQhull.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindFFTW3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindNumPy.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\src\config.h.cmake;D:\file\code\git\tool\OpenMD\src\utils\Revision.cpp.in;D:\file\code\git\tool\OpenMD\cmake\openmd.spec.in;D:\file\code\git\tool\OpenMD\samples\builders\runMe.in;C:\Program Files\CMake\share\cmake-3.7\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;D:\file\code\git\tool\OpenMD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/file/code/git/tool/OpenMD/CMakeLists.txt;D:\file\code\git\tool\OpenMD\CMakeLists.txt;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\cmake_mpi_test.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake;D:\file\code\git\tool\OpenMD\.git\HEAD;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake.in;D:\file\code\git\tool\OpenMD\build\CMakeFiles\git-data\grabRef.cmake;D:\file\code\git\tool\OpenMD\.git\refs\heads\master;D:\file\code\git\tool\OpenMD\cmake\modules\FindOpenBabel2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindFFTW3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindNumPy.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\src\config.h.cmake;D:\file\code\git\tool\OpenMD\src\utils\Revision.cpp.in;D:\file\code\git\tool\OpenMD\cmake\openmd.spec.in;D:\file\code\git\tool\OpenMD\samples\builders\runMe.in;C:\Program Files\CMake\share\cmake-3.7\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;D:\file\code\git\tool\OpenMD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\file\code\git\tool\OpenMD\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/file/code/git/tool/OpenMD/CMakeLists.txt</Message>
@@ -229,7 +231,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/file/code/git/tool/OpenMD/CMakeLists.txt;D:\file\code\git\tool\OpenMD\CMakeLists.txt;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\cmake_mpi_test.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake;D:\file\code\git\tool\OpenMD\.git\HEAD;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake.in;D:\file\code\git\tool\OpenMD\build\CMakeFiles\git-data\grabRef.cmake;D:\file\code\git\tool\OpenMD\.git\refs\heads\master;D:\file\code\git\tool\OpenMD\cmake\modules\FindOpenBabel2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindQhull.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindFFTW3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindNumPy.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\src\config.h.cmake;D:\file\code\git\tool\OpenMD\src\utils\Revision.cpp.in;D:\file\code\git\tool\OpenMD\cmake\openmd.spec.in;D:\file\code\git\tool\OpenMD\samples\builders\runMe.in;C:\Program Files\CMake\share\cmake-3.7\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;D:\file\code\git\tool\OpenMD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/file/code/git/tool/OpenMD/CMakeLists.txt;D:\file\code\git\tool\OpenMD\CMakeLists.txt;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\cmake_mpi_test.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake;D:\file\code\git\tool\OpenMD\.git\HEAD;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake.in;D:\file\code\git\tool\OpenMD\build\CMakeFiles\git-data\grabRef.cmake;D:\file\code\git\tool\OpenMD\.git\refs\heads\master;D:\file\code\git\tool\OpenMD\cmake\modules\FindOpenBabel2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindFFTW3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindNumPy.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\src\config.h.cmake;D:\file\code\git\tool\OpenMD\src\utils\Revision.cpp.in;D:\file\code\git\tool\OpenMD\cmake\openmd.spec.in;D:\file\code\git\tool\OpenMD\samples\builders\runMe.in;C:\Program Files\CMake\share\cmake-3.7\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;D:\file\code\git\tool\OpenMD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\file\code\git\tool\OpenMD\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/file/code/git/tool/OpenMD/CMakeLists.txt</Message>
@@ -242,7 +244,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/file/code/git/tool/OpenMD/CMakeLists.txt;D:\file\code\git\tool\OpenMD\CMakeLists.txt;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\cmake_mpi_test.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake;D:\file\code\git\tool\OpenMD\.git\HEAD;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake.in;D:\file\code\git\tool\OpenMD\build\CMakeFiles\git-data\grabRef.cmake;D:\file\code\git\tool\OpenMD\.git\refs\heads\master;D:\file\code\git\tool\OpenMD\cmake\modules\FindOpenBabel2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindQhull.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindFFTW3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindNumPy.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\src\config.h.cmake;D:\file\code\git\tool\OpenMD\src\utils\Revision.cpp.in;D:\file\code\git\tool\OpenMD\cmake\openmd.spec.in;D:\file\code\git\tool\OpenMD\samples\builders\runMe.in;C:\Program Files\CMake\share\cmake-3.7\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;D:\file\code\git\tool\OpenMD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/file/code/git/tool/OpenMD/CMakeLists.txt;D:\file\code\git\tool\OpenMD\CMakeLists.txt;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\cmake_mpi_test.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake;D:\file\code\git\tool\OpenMD\.git\HEAD;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake.in;D:\file\code\git\tool\OpenMD\build\CMakeFiles\git-data\grabRef.cmake;D:\file\code\git\tool\OpenMD\.git\refs\heads\master;D:\file\code\git\tool\OpenMD\cmake\modules\FindOpenBabel2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindFFTW3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindNumPy.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\src\config.h.cmake;D:\file\code\git\tool\OpenMD\src\utils\Revision.cpp.in;D:\file\code\git\tool\OpenMD\cmake\openmd.spec.in;D:\file\code\git\tool\OpenMD\samples\builders\runMe.in;C:\Program Files\CMake\share\cmake-3.7\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;D:\file\code\git\tool\OpenMD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\file\code\git\tool\OpenMD\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/file/code/git/tool/OpenMD/CMakeLists.txt</Message>
@@ -255,216 +257,220 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/file/code/git/tool/OpenMD/CMakeLists.txt;D:\file\code\git\tool\OpenMD\CMakeLists.txt;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\cmake_mpi_test.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake;D:\file\code\git\tool\OpenMD\.git\HEAD;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake.in;D:\file\code\git\tool\OpenMD\build\CMakeFiles\git-data\grabRef.cmake;D:\file\code\git\tool\OpenMD\.git\refs\heads\master;D:\file\code\git\tool\OpenMD\cmake\modules\FindOpenBabel2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindQhull.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindFFTW3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindNumPy.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\src\config.h.cmake;D:\file\code\git\tool\OpenMD\src\utils\Revision.cpp.in;D:\file\code\git\tool\OpenMD\cmake\openmd.spec.in;D:\file\code\git\tool\OpenMD\samples\builders\runMe.in;C:\Program Files\CMake\share\cmake-3.7\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;D:\file\code\git\tool\OpenMD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/file/code/git/tool/OpenMD/CMakeLists.txt;D:\file\code\git\tool\OpenMD\CMakeLists.txt;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\3.7.2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\build\CMakeFiles\cmake_mpi_test.cpp;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake;D:\file\code\git\tool\OpenMD\.git\HEAD;D:\file\code\git\tool\OpenMD\cmake\modules\GetGitRevisionDescription.cmake.in;D:\file\code\git\tool\OpenMD\build\CMakeFiles\git-data\grabRef.cmake;D:\file\code\git\tool\OpenMD\.git\refs\heads\master;D:\file\code\git\tool\OpenMD\cmake\modules\FindOpenBabel2.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindFFTW3.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\cmake\modules\FindNumPy.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;D:\file\code\git\tool\OpenMD\src\config.h.cmake;D:\file\code\git\tool\OpenMD\src\utils\Revision.cpp.in;D:\file\code\git\tool\OpenMD\cmake\openmd.spec.in;D:\file\code\git\tool\OpenMD\samples\builders\runMe.in;C:\Program Files\CMake\share\cmake-3.7\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Templates\CPackConfig.cmake.in;D:\file\code\git\tool\OpenMD\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\file\code\git\tool\OpenMD\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\build\Revision.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ANTLRUtil.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ASTFactory.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ASTNULLType.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ASTRefCount.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\BaseAST.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\BitSet.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonAST.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonASTWithHiddenTokens.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonHiddenStreamToken.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonToken.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\LLkParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\MismatchedCharException.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\MismatchedTokenException.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\NoViableAltException.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\NoViableAltForCharException.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\Parser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\RecognitionException.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\String.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\Token.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenRefCount.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamBasicFilter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamHiddenTokenFilter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamRewriteEngine.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamSelector.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TreeParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\BlockSnapshotManager.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\DataStorage.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\ForceField.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\MoleculeCreator.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\PairList.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\Register.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\SimSnapshotManager.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\Snapshot.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\Stats.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\hydrodynamics\Ellipsoid.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\hydrodynamics\HydroProp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\hydrodynamics\Sphere.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\DLM.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeLangevin.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeParameters.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeNVE.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeNVT.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\Integrator.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\IntegratorFactory.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\LangevinDynamics.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\LDForceManager.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NgammaT.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPA.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPAT.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPrT.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPT.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTf.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTi.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTsz.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTxyz.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NVE.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NVT.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\VelocityVerletIntegrator.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\AtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\BaseAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\BendTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\BondTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ChargeAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\DirectionalAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\EAMAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\FluctuatingChargeAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ForceFieldOptions.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\GayBerneAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\Globals.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\InversionTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\LennardJonesAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\MultipoleAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\NonBondedInteractionsSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\OptionSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ParamConstraint.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\PolarizableAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\SCAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\SectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\SectionParserManager.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ShapeAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\StickyAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\StickyPowerAtomTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\TorsionTypesSectionParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ZConsReader.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\CubicLattice.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\FCCLattice.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\Lattice.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\LatticeFactory.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\shapedLattice.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\ChebyshevT.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\ChebyshevU.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\CubicSpline.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\LegendrePolynomial.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\RealSphericalHarmonic.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\RMSD.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\SeqRandNumGen.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\SphericalHarmonic.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\Wigner3jm.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\mdParser\FilenameObserver.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\OptimizationFactory.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\Armijo.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\BFGS.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\ConjugateGradient.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\Constraint.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\EndCriteria.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\LineSearch.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\LineSearchBasedMethod.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\SteepestDescent.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\PotentialEnergyObjectiveFunction.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\MinimizerParameters.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Buckingham.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\EAM.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\GB.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\InteractionManager.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\LJ.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\MAW.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Morse.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\RepulsivePower.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Mie.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\SC.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Sticky.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\SwitchingFunction.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Atom.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Bend.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\DirectionalAtom.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\GhostBend.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\GhostTorsion.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Inversion.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Molecule.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\RigidBody.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\StuntDouble.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\ShortRangeInteraction.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Torsion.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\UreyBradleyBend.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\perturbations\UniformField.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\perturbations\UniformGradient.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\restraints\MolecularRestraint.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\restraints\ObjectRestraint.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\HullFinder.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\IndexFinder.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\NameFinder.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionCompiler.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionEvaluator.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionToken.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\TokenMap.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\AtomStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\AtomType.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BendStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BendTypeParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BondStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BondTypeParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\CharmmTorsionType.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\Component.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ConstraintStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\CutoffGroupStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\DirectionalAdapter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\EAMAdapter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\FixedChargeAdapter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\FluctuatingChargeAdapter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\FragmentStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\GayBerneAdapter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ImproperCosineInversionType.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\InversionStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\InversionTypeParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\LennardJonesAdapter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\MoleculeStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\MultipoleAdapter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\NonBondedInteractionType.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\PolarizableAdapter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\RestraintStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\RigidBodyStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ShapeAtomType.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\StickyAdapter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\SuttonChenAdapter.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\TorsionStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\TorsionTypeParser.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ZconsStamp.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\ElementsTable.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\MoLocator.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\PropertyMap.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\StringTokenizer.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\StringUtils.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\Trim.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\Utility.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\wildcards.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\AtomNameVisitor.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\AtomVisitor.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\CompositeVisitor.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\LipidTransVisitor.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\OtherVisitor.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\ReplacementVisitor.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\RigidBodyVisitor.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\ZconsVisitor.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\rnemd\RNEMDParameters.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\clusters\Icosahedron.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\clusters\Cuboctahedron.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\clusters\Decahedron.cpp"  />
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\gzstream.cpp"  />
+    <ClCompile Include="..\src\math\ConvexHull.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\build\Revision.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ANTLRUtil.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ASTFactory.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ASTNULLType.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ASTRefCount.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\BaseAST.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\BitSet.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonAST.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonASTWithHiddenTokens.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonHiddenStreamToken.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\CommonToken.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\LLkParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\MismatchedCharException.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\MismatchedTokenException.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\NoViableAltException.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\NoViableAltForCharException.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\Parser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\RecognitionException.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\String.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\Token.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenRefCount.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamBasicFilter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamHiddenTokenFilter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamRewriteEngine.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TokenStreamSelector.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\TreeParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\BlockSnapshotManager.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\DataStorage.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\ForceField.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\MoleculeCreator.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\PairList.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\Register.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\SimSnapshotManager.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\Snapshot.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\brains\Stats.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\hydrodynamics\Ellipsoid.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\hydrodynamics\HydroProp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\hydrodynamics\Sphere.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\DLM.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeLangevin.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeParameters.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeNVE.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\flucq\FluctuatingChargeNVT.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\Integrator.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\IntegratorFactory.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\LangevinDynamics.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\LDForceManager.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NgammaT.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPA.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPAT.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPrT.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPT.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTf.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTi.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTsz.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NPTxyz.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NVE.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\NVT.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\integrators\VelocityVerletIntegrator.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\AtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\BaseAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\BendTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\BondTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ChargeAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\DirectionalAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\EAMAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\FluctuatingChargeAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ForceFieldOptions.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\GayBerneAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\Globals.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\InversionTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\LennardJonesAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\MultipoleAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\NonBondedInteractionsSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\OptionSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ParamConstraint.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\PolarizableAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\SCAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\SectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\SectionParserManager.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ShapeAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\StickyAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\StickyPowerAtomTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\TorsionTypesSectionParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\ZConsReader.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\CubicLattice.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\FCCLattice.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\Lattice.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\LatticeFactory.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\lattice\shapedLattice.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\ChebyshevT.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\ChebyshevU.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\CubicSpline.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\LegendrePolynomial.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\RealSphericalHarmonic.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\RMSD.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\SeqRandNumGen.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\SphericalHarmonic.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\math\Wigner3jm.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\mdParser\FilenameObserver.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\OptimizationFactory.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\Armijo.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\BFGS.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\ConjugateGradient.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\Constraint.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\EndCriteria.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\LineSearch.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\LineSearchBasedMethod.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\SteepestDescent.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\PotentialEnergyObjectiveFunction.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\optimization\MinimizerParameters.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Buckingham.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\EAM.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\GB.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\InteractionManager.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\LJ.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\MAW.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Morse.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\RepulsivePower.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Mie.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\SC.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\Sticky.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\nonbonded\SwitchingFunction.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Atom.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Bend.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\DirectionalAtom.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\GhostBend.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\GhostTorsion.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Inversion.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Molecule.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\RigidBody.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\StuntDouble.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\ShortRangeInteraction.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\Torsion.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\primitives\UreyBradleyBend.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\perturbations\UniformField.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\perturbations\UniformGradient.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\restraints\MolecularRestraint.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\restraints\ObjectRestraint.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\HullFinder.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\IndexFinder.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\NameFinder.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionCompiler.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionEvaluator.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\SelectionToken.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\selection\TokenMap.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\AtomStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\AtomType.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BendStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BendTypeParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BondStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\BondTypeParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\CharmmTorsionType.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\Component.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ConstraintStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\CutoffGroupStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\DirectionalAdapter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\EAMAdapter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\FixedChargeAdapter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\FluctuatingChargeAdapter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\FragmentStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\GayBerneAdapter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ImproperCosineInversionType.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\InversionStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\InversionTypeParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\LennardJonesAdapter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\MoleculeStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\MultipoleAdapter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\NonBondedInteractionType.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\PolarizableAdapter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\RestraintStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\RigidBodyStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ShapeAtomType.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\StickyAdapter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\SuttonChenAdapter.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\TorsionStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\TorsionTypeParser.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\types\ZconsStamp.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\ElementsTable.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\MoLocator.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\PropertyMap.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\StringTokenizer.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\StringUtils.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\Trim.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\Utility.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\utils\wildcards.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\AtomNameVisitor.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\AtomVisitor.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\CompositeVisitor.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\LipidTransVisitor.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\OtherVisitor.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\ReplacementVisitor.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\RigidBodyVisitor.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\visitors\ZconsVisitor.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\rnemd\RNEMDParameters.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\clusters\Icosahedron.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\clusters\Cuboctahedron.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\clusters\Decahedron.cpp" />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\io\gzstream.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:/file/code/git/tool/OpenMD/build/ZERO_CHECK.vcxproj">
       <Project>E23B5106-8A2F-32C9-9B07-DF8BE86C76D6</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\math\ConvexHull.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

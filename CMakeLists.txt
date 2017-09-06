@@ -134,14 +134,14 @@ ELSE(OPENBABEL2_FOUND)
 ENDIF(OPENBABEL2_FOUND)
 
 #Look for QHULL Libraries
-find_package(Qhull)
-IF(QHULL_FOUND)
+#find_package(Qhull)
+#IF(QHULL_FOUND)
   SET(HAVE_QHULL 1)
   include_directories(${QHULL_INCLUDE_DIR})
   LINK_LIBRARIES(${QHULL_LIBRARIES})
-ELSE(QHULL_FOUND)
-  MESSAGE(STATUS "No Qhull found - will be missing some features")
-ENDIF(QHULL_FOUND)
+#ELSE(QHULL_FOUND)
+#  MESSAGE(STATUS "No Qhull found - will be missing some features")
+#ENDIF(QHULL_FOUND)
 
 # zlib stuff
 find_package(ZLIB)

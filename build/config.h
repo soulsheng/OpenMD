@@ -27,8 +27,8 @@
 
 /* Is defined if the qhull library is available. */
 
-/* #undef HAVE_QHULL */
-/* #undef HAVE_QHULL_REENTRANT */
+#define HAVE_QHULL 1
+#define HAVE_QHULL_REENTRANT
 /* #undef HAVE_QHULL_2011 */
 #ifdef DISABLE_QHULL
 #undef HAVE_QHULL

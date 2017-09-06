@@ -3,3 +3,13 @@ openmd.spec
 /build/*.cmake
 /build/bin
 /build/*.txt
+/build/*.dir
+/build/Win32
+/build/Release
+/build/*.opensdf
+/build/*.sdf
+/build/*.suo
+/build/*.omd
+/build/lib
+/build/*.inc
+/build/*.xyz

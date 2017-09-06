@@ -1,5 +1,5 @@
-#define GIT_SHA1 "4df9d6644dfb2b2d920221ed6c772078c69de451"
-#define BUILD_DATE "Thu Aug 24 16:10:55 2017"
+#define GIT_SHA1 "f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7"
+#define BUILD_DATE "Tue Sep 05 16:40:41 2017"
 #define OPENMD_VERSION "2.6"
 
 #include "utils/Revision.hpp"

@@ -13,3 +13,4 @@ openmd.spec
 /build/lib
 /build/*.inc
 /build/*.xyz
+/build/Debug

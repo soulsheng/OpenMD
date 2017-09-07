@@ -158,6 +158,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "thermalizer", "thermalizer.
 		{E9B92233-310E-3B57-924C-0CF71B1DA7B3} = {E9B92233-310E-3B57-924C-0CF71B1DA7B3}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atom2md", "atom2md.vcxproj", "{E08C743A-DA62-40FA-9D25-E0C065E50660}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -330,6 +332,14 @@ Global
 		{E30C77A5-AE57-39D7-8E37-4F44D1280EA4}.Release|Win32.Build.0 = Release|Win32
 		{E30C77A5-AE57-39D7-8E37-4F44D1280EA4}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
 		{E30C77A5-AE57-39D7-8E37-4F44D1280EA4}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{E08C743A-DA62-40FA-9D25-E0C065E50660}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E08C743A-DA62-40FA-9D25-E0C065E50660}.Debug|Win32.Build.0 = Debug|Win32
+		{E08C743A-DA62-40FA-9D25-E0C065E50660}.MinSizeRel|Win32.ActiveCfg = Release|Win32
+		{E08C743A-DA62-40FA-9D25-E0C065E50660}.MinSizeRel|Win32.Build.0 = Release|Win32
+		{E08C743A-DA62-40FA-9D25-E0C065E50660}.Release|Win32.ActiveCfg = Release|Win32
+		{E08C743A-DA62-40FA-9D25-E0C065E50660}.Release|Win32.Build.0 = Release|Win32
+		{E08C743A-DA62-40FA-9D25-E0C065E50660}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{E08C743A-DA62-40FA-9D25-E0C065E50660}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

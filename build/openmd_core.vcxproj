@@ -263,6 +263,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\integrators\LangevinHullDynamics.cpp" />
     <ClCompile Include="..\src\math\ConvexHull.cpp" />
     <ClCompile Include="D:\file\code\git\tool\OpenMD\build\Revision.cpp" />
     <ClCompile Include="D:\file\code\git\tool\OpenMD\src\antlr\ANTLRUtil.cpp" />
@@ -470,6 +471,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\integrators\LangevinHullDynamics.hpp" />
     <ClInclude Include="..\src\math\ConvexHull.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

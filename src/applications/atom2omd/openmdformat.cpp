@@ -28,7 +28,7 @@ using namespace std;
 namespace OpenBabel
 {
   
-  class OpenMDFormat : public OBMoleculeFormat
+	class OpenMDFormat : public OBMoleculeFormat
   {
   public:
     //Register this format type ID
@@ -243,6 +243,7 @@ namespace OpenBabel
             // Either couldn't find a residue at all or couldn't find a
             // reasonable residue name to use.  We'll punt and use
             // OpenBabel's internal atom typing:
+			OBTypeTable      ttab;
             ttab.SetFromType("INT");
             ttab.SetToType("INT");
             ttab.Translate(str1, str);
@@ -293,7 +294,7 @@ namespace OpenBabel
 	    }
 	    
 
-            if ((&*atom)->IsHydrogen()) {
+		if ((&*atom)->GetAtomicNum() != OBElements::Hydrogen) {
                FOR_NBORS_OF_ATOM(nbr, *atom) {
                  str2 = r->GetAtomID(&*nbr);
                  size_t startpos = str2.find_first_not_of(" ");

@@ -599,6 +599,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\math\ConvexHull.cpp" />
+    <ClCompile Include="..\src\integrators\LangevinHullDynamics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\file\code\git\tool\OpenMD\CMakeLists.txt" />
@@ -610,5 +611,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\math\ConvexHull.hpp" />
+    <ClInclude Include="..\src\integrators\LangevinHullDynamics.hpp" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -56,33 +56,33 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\file\code\git\tool\OpenMD\build\bin\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openmd.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openmd</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\file\code\git\tool\OpenMD\build\bin\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openmd.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openmd</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\file\code\git\tool\OpenMD\build\bin\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">openmd.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">openmd</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\file\code\git\tool\OpenMD\build\bin\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openmd.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openmd</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\file\code\git\tool\OpenMD\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openmd.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openmd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\file\code\git\tool\OpenMD\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openmd.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openmd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\file\code\git\tool\OpenMD\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">openmd.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">openmd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\file\code\git\tool\OpenMD\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openmd.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openmd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -97,11 +97,11 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)";HAVE_LIBZ;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision 6a8bbc628f7a3b8c63b7b913e4cb2e1727c8b52d)";HAVE_LIBZ;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)\";HAVE_LIBZ;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision 6a8bbc628f7a3b8c63b7b913e4cb2e1727c8b52d)\";HAVE_LIBZ;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -121,7 +121,8 @@
       <ImportLibrary>D:/file/code/git/tool/OpenMD/build/lib/Debug/openmd.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/file/code/git/tool/OpenMD/build/bin/Debug/openmd.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -139,12 +140,13 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)";HAVE_LIBZ;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision 6a8bbc628f7a3b8c63b7b913e4cb2e1727c8b52d)";HAVE_LIBZ;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)\";HAVE_LIBZ;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision 6a8bbc628f7a3b8c63b7b913e4cb2e1727c8b52d)\";HAVE_LIBZ;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -157,14 +159,15 @@
     </Midl>
     <Link>
       <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\file\code\theia-3rd\zlib-1.2.8\lib\zlib.lib;lib\Release\openmd_single.lib;lib\Release\openmd_core.lib;lib\Release\openmd_single.lib;lib\Release\openmd_core.lib;D:\file\code\theia-3rd\zlib-1.2.8\lib\zlib.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D:\file\code\theia-3rd\zlib-1.2.8\lib\zlib.lib;lib\Release\openmd_single.lib;lib\Release\openmd_core.lib;qhull_r.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>D:/file/code/git/tool/OpenMD/build/lib/Release/openmd.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/file/code/git/tool/OpenMD/build/bin/Release/openmd.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -182,12 +185,13 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)";HAVE_LIBZ;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision 6a8bbc628f7a3b8c63b7b913e4cb2e1727c8b52d)";HAVE_LIBZ;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)\";HAVE_LIBZ;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision 6a8bbc628f7a3b8c63b7b913e4cb2e1727c8b52d)\";HAVE_LIBZ;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -207,7 +211,8 @@
       <ImportLibrary>D:/file/code/git/tool/OpenMD/build/lib/MinSizeRel/openmd.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/file/code/git/tool/OpenMD/build/bin/MinSizeRel/openmd.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -226,11 +231,11 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)";HAVE_LIBZ;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION="(OpenMD 2.6 Revision 6a8bbc628f7a3b8c63b7b913e4cb2e1727c8b52d)";HAVE_LIBZ;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision f9eb99f937fc2a1ba38f0d8c032c7f84a95635c7)\";HAVE_LIBZ;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;_CRT_SECURE_NO_WARNINGS;FRC_PATH=C:/Program Files (x86)/OpenMD/forceFields;CMDLINE_PARSER_VERSION=\"(OpenMD 2.6 Revision 6a8bbc628f7a3b8c63b7b913e4cb2e1727c8b52d)\";HAVE_LIBZ;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\file\code\common-3rd\qhull-7_2_0-vc12\include;D:\file\code\theia-3rd\zlib-1.2.8\include;D:\file\code\git\tool\OpenMD\build;D:\file\code\git\tool\OpenMD\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -250,7 +255,8 @@
       <ImportLibrary>D:/file/code/git/tool/OpenMD/build/lib/RelWithDebInfo/openmd.lib</ImportLibrary>
       <ProgramDataBaseFile>D:/file/code/git/tool/OpenMD/build/bin/RelWithDebInfo/openmd.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -313,7 +319,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\openmd\openmd.cpp"  />
+    <ClCompile Include="D:\file\code\git\tool\OpenMD\src\applications\openmd\openmd.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:/file/code/git/tool/OpenMD/build/ZERO_CHECK.vcxproj">

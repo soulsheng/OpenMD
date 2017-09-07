@@ -393,12 +393,13 @@ int main(int argc,char *argv[])
     {
       clog << OutputFileList.size() << " files output. The first is " << OutputFileList[0] <<endl;
     }
-
+#if 0
   std::string messageSummary = obErrorLog.GetMessageSummary();
   if (messageSummary.size())
     {
       clog << messageSummary << endl;
     }
+#endif
 
 #ifdef DEBUG
   //CM keep window open
